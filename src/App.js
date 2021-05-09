@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 
+let isLoggedIn = false;
+
 function App() {
   return (
     <div className="container">
