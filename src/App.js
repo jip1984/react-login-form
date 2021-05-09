@@ -1,12 +1,18 @@
 import React from "react";
 import "./App.css";
 
-let isLoggedIn = false;
+let isLoggedIn = true;
+
+function loggedIn() {
+  if (isLoggedIn === true) {
+    return <h1>Hello User</h1>
+  }
+}
 
 function App() {
   return (
     <div className="container">
-      <h1>Hello</h1>
+
       <form className="form">
         <input type="text" placeholder="Username" />
         <input type="password" placeholder="Password" />
