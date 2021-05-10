@@ -4,6 +4,7 @@ import Login from './Login';
 
 
 let isLoggedIn = false;
+let userIsRegistered = false;
 
 
 function App() {
