@@ -1,17 +1,16 @@
 import React from "react";
 import "./App.css";
 import Login from './Login';
+import Register from './Register';
 
 
-let isLoggedIn = false;
 let userIsRegistered = false;
 
 
 function App() {
   return (
     <div className="container">
-
-      { isLoggedIn ? <h1>Hello User</h1> : <Login />}
+      {userIsRegistered ? <Login /> : <Register />}
     </div>
   );
 }
