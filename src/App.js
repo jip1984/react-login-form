@@ -4,7 +4,8 @@ import Login from './Login';
 import Register from './Register';
 
 
-let userIsRegistered = false;
+//chnage the state of user register 
+let userIsRegistered = true;
 
 
 function App() {
