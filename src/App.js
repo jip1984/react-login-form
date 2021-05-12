@@ -4,7 +4,7 @@ import Login from './Login';
 import Register from './Register';
 
 
-//chnage the state of user register 
+//change the state of user register 
 let userIsRegistered = true;
 
 
