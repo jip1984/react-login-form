@@ -1,6 +1,8 @@
 import React from 'react'
 import Input from './Input';
 
+
+//Login form
 const Login = () => {
     return (
         <form className="form">
